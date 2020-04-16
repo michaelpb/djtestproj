@@ -1,12 +1,20 @@
-# Heroku `django-admin startproject` Guide
+# Kickstart Heroku `django-admin startproject` Guide
 
-The homework recommended using minidjango to launch your site. However, with just a few changes, you can also use the more "normal" django-admin startproject set-up to get going. Here are tips for launching projects with the Django Admin startproject.
+> This was original created for Kickstart Coding, the affordable,
+> inclusive, and intensive coding course teaching cutting-edge Python /
+> Django and JavaScript / React web development in Oakland, CA.
+> [Learn more and enroll here.](http://kickstartcoding.com/?utm_source=github&utm_campaign=cheatsheets)
 
-I followed the tips, and pushed the results to GitHub for reference:
+-------------
 
-https://github.com/michaelpb/djtestproj
+This is project that's the result of following this guide:
 
-An important thing: Notice how manage.py Procfile, Pipfile, etc are all at the "top level" of the repo. There should be nothing underneath it.
+<https://github.com/kickstartcoding/heroku-getting-started/>
+
+Here are tips for launching projects with the Django Admin startproject from
+the previous guide, copied below.  An important thing: Notice how manage.py
+Procfile, Pipfile, etc are all at the "top level" of the repo. There should be
+nothing underneath it.
 
 
 1. Create your project:
